@@ -1,7 +1,7 @@
 import os
 
-from pathlib import Path
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv()
 
@@ -11,7 +11,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['84.201.164.252', '127.0.0.1', 'localhost', 'taski-motaski.servebeer.com']
+ALLOWED_HOSTS = ['84.201.164.252',
+                 '127.0.0.1',
+                 'localhost',
+                 'taski-motaski.servebeer.com']
 
 
 # Application definition
